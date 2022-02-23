@@ -39,12 +39,12 @@
 			<data />
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
-		<setting name="AzureDevOps_CollectionID" type="5" value="{C4AFACD2-5188-4260-8983-BA4D807A3AA1}" />
-		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/ce98166f-9656-4907-82d3-1e9f515325d0" />
-		<setting name="AzureDevOps_ServerName" type="5" value="https://dev.azure.com/kush0151" />
-		<setting name="AzureDevOps_TeamProject" type="5" value="Test Complete" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
-		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/kush0151" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
 		<setting name="BitBar_APIKey" type="5" value="" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
