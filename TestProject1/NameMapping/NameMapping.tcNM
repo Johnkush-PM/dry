@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{6B87BD16-FB94-4279-A6C9-055CE592BD7A}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Orders" Key="{E9AB9A2B-80EC-4624-AD8E-964D664DBBB7}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{0F9D3A43-26C8-44D2-9C0F-CEE0558CAE41}">
+								<Image FileName="1304676182" Left="0" Top="0" Right="608" Bottom="408" />
+								<TypeInfo Item0="{6C47E7C3-82B0-4003-B642-DAA213EBBD17}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="OrderForm" Key="{524B771A-F4B0-4CBC-B023-9A600204DA6C}">
+								<Image FileName="-1524215470" Left="0" Top="0" Right="488" Bottom="478" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OrderForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Group" Key="{A7EAF69B-9383-4564-ABA6-5B4D3F520D35}">
+										<Image FileName="-1524215470" Left="11" Top="34" Right="475" Bottom="434" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="Group" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ProductNames" Key="{39A37566-2E3E-4E63-A716-CC2EDDF48547}">
+												<Image FileName="-1524215470" Left="75" Top="50" Right="467" Bottom="71" />
+												<TypeInfo Item0="{A52E641F-C3BC-4490-BBBA-0E0A438A90C1}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="ProductNames" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Customer" Key="{8183D319-9CF9-49F8-9AD4-7CFA892275A0}">
+												<Image FileName="-993409328" Left="115" Top="194" Right="467" Bottom="214" />
+												<TypeInfo Item0="{9725C0B9-3C52-4D8C-AD1E-C1BB253DB75D}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Customer" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Street" Key="{2A4CA89B-3A30-40CF-B43C-AE539BA72D68}">
+												<Image FileName="267217719" Left="115" Top="226" Right="243" Bottom="246" />
+												<TypeInfo Item0="{9725C0B9-3C52-4D8C-AD1E-C1BB253DB75D}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Street" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="ButtonOK" Key="{7A21D653-7663-471E-9271-83FD87E25DE8}">
+										<Image FileName="-684632007" Left="323" Top="442" Right="395" Bottom="466" />
+										<TypeInfo Item0="{D95250F3-7B03-4D62-B2D9-9B50DE2E8251}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="ButtonOK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgConfirmation" Key="{1C13DD0B-D802-47BA-B0AE-24A8125AA712}">
+								<Image FileName="-845572251" Left="0" Top="0" Right="290" Bottom="149" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Confirmation" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnNo" Key="{8C67E338-3946-4114-A756-F2D5BD788CE4}">
+										<Image FileName="-845572251" Left="113" Top="114" Right="188" Bottom="137" />
+										<TypeInfo Item0="{D95250F3-7B03-4D62-B2D9-9B50DE2E8251}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;No" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Orders" Owner="{E9AB9A2B-80EC-4624-AD8E-964D664DBBB7}">
+			<Child Name="MainForm" Owner="{0F9D3A43-26C8-44D2-9C0F-CEE0558CAE41}" />
+			<Child Name="OrderForm" Owner="{524B771A-F4B0-4CBC-B023-9A600204DA6C}">
+				<Child Name="Group" Owner="{A7EAF69B-9383-4564-ABA6-5B4D3F520D35}">
+					<Child Name="ProductNames" Owner="{39A37566-2E3E-4E63-A716-CC2EDDF48547}" />
+					<Child Name="Customer" Owner="{8183D319-9CF9-49F8-9AD4-7CFA892275A0}" />
+					<Child Name="Street" Owner="{2A4CA89B-3A30-40CF-B43C-AE539BA72D68}" />
+				</Child>
+				<Child Name="ButtonOK" Owner="{7A21D653-7663-471E-9271-83FD87E25DE8}" />
+			</Child>
+			<Child Name="dlgConfirmation" Owner="{1C13DD0B-D802-47BA-B0AE-24A8125AA712}">
+				<Child Name="btnNo" Owner="{8C67E338-3946-4114-A756-F2D5BD788CE4}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
